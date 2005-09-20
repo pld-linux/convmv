@@ -1,4 +1,5 @@
 Summary:	Convmv - convert filenames from one encoding to another
+Summary(pl):	Convmv - konwersja nazw plików z jednego kodowania do innego
 Name:		convmv
 Version:	1.08
 Release:	1
@@ -22,6 +23,19 @@ also possible to convert directories to UTF-8 which are already partly
 UTF-8 encoded. Convmv is able to detect if certain files are UTF-8
 encoded and will skip them by default. To turn this smartness off use
 the "--nosmart" switch.
+
+%description -l pl
+Convmv ma za zadanie pomóc przy konwersji pojedynczych nazw plików,
+drzew katalogów wraz z zawartymi w nich plikami lub ca³ego systemu
+plików na inne kodowanie. Konwertuje tylko nazwy plików, a nie ich
+zawarto¶æ. Szczególn± cech± convmv jest to, ¿e dba tak¿e o dowi±zania
+symboliczne i konwertuje wskazania docelowe w przypadku, gdy cel
+dowi±zania jest zmieniany. Jest to pomocne przy przechodzeniu ze
+starych 8-bitowych lokalizacji do nowych w UTF-8. Mo¿na tak¿e
+przekonwertowaæ do UTF-8 katalogi, które by³y ju¿ czê¶ciowo kodowane w
+UTF-8. Convmv jest w stanie wykryæ, czy dane pliki s± zakodowane w
+UTF-8 i domy¶lnie je pomin±æ. Aby wy³±czyæ to zachowanie mo¿na u¿yæ
+prze³±cznika "--nosmart".
 
 %prep
 %setup -q
