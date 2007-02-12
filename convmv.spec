@@ -1,5 +1,5 @@
 Summary:	Convmv - convert filenames from one encoding to another
-Summary(pl):	Convmv - konwersja nazw plików z jednego kodowania do innego
+Summary(pl.UTF-8):   Convmv - konwersja nazw plikÃ³w z jednego kodowania do innego
 Name:		convmv
 Version:	1.08
 Release:	1
@@ -24,18 +24,18 @@ UTF-8 encoded. Convmv is able to detect if certain files are UTF-8
 encoded and will skip them by default. To turn this smartness off use
 the "--nosmart" switch.
 
-%description -l pl
-Convmv ma za zadanie pomóc przy konwersji pojedynczych nazw plików,
-drzew katalogów wraz z zawartymi w nich plikami lub ca³ego systemu
-plików na inne kodowanie. Konwertuje tylko nazwy plików, a nie ich
-zawarto¶æ. Szczególn± cech± convmv jest to, ¿e dba tak¿e o dowi±zania
+%description -l pl.UTF-8
+Convmv ma za zadanie pomÃ³c przy konwersji pojedynczych nazw plikÃ³w,
+drzew katalogÃ³w wraz z zawartymi w nich plikami lub caÅ‚ego systemu
+plikÃ³w na inne kodowanie. Konwertuje tylko nazwy plikÃ³w, a nie ich
+zawartoÅ›Ä‡. SzczegÃ³lnÄ… cechÄ… convmv jest to, Å¼e dba takÅ¼e o dowiÄ…zania
 symboliczne i konwertuje wskazania docelowe w przypadku, gdy cel
-dowi±zania jest zmieniany. Jest to pomocne przy przechodzeniu ze
-starych 8-bitowych lokalizacji do nowych w UTF-8. Mo¿na tak¿e
-przekonwertowaæ do UTF-8 katalogi, które by³y ju¿ czê¶ciowo kodowane w
-UTF-8. Convmv jest w stanie wykryæ, czy dane pliki s± zakodowane w
-UTF-8 i domy¶lnie je pomin±æ. Aby wy³±czyæ to zachowanie mo¿na u¿yæ
-prze³±cznika "--nosmart".
+dowiÄ…zania jest zmieniany. Jest to pomocne przy przechodzeniu ze
+starych 8-bitowych lokalizacji do nowych w UTF-8. MoÅ¼na takÅ¼e
+przekonwertowaÄ‡ do UTF-8 katalogi, ktÃ³re byÅ‚y juÅ¼ czÄ™Å›ciowo kodowane w
+UTF-8. Convmv jest w stanie wykryÄ‡, czy dane pliki sÄ… zakodowane w
+UTF-8 i domyÅ›lnie je pominÄ…Ä‡. Aby wyÅ‚Ä…czyÄ‡ to zachowanie moÅ¼na uÅ¼yÄ‡
+przeÅ‚Ä…cznika "--nosmart".
 
 %prep
 %setup -q
