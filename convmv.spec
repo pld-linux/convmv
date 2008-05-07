@@ -1,12 +1,12 @@
 Summary:	Convmv - convert filenames from one encoding to another
 Summary(pl.UTF-8):	Convmv - konwersja nazw plików z jednego kodowania do innego
 Name:		convmv
-Version:	1.10
-Release:	2
+Version:	1.12
+Release:	1
 License:	GPL v2
 Group:		Applications/File
 Source0:	http://j3e.de/linux/convmv/%{name}-%{version}.tar.gz
-# Source0-md5:	8daf88557f40523312c40abc31b8167f
+# Source0-md5:	f96ca9198fc0a2192920f5baf002dfe4
 URL:		http://j3e.de/linux/convmv/
 BuildRequires:	perl-tools-pod
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
