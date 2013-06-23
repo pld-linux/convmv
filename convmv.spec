@@ -1,14 +1,17 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	Convmv - convert filenames from one encoding to another
 Summary(pl.UTF-8):	Convmv - konwersja nazw plików z jednego kodowania do innego
 Name:		convmv
 Version:	1.15
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/File
 Source0:	http://j3e.de/linux/convmv/%{name}-%{version}.tar.gz
 # Source0-md5:	b1bb703c08c6355868d15890ff193f7d
 URL:		http://j3e.de/linux/convmv/
 BuildRequires:	perl-tools-pod
+BuildRequires:	rpm-perlprov >= 4.1-13
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
